@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+
+    background:linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px; /*Aqui da o espaçamento no elementos da Nave*/
+
+}
+.menu-item{
+    font-family: 'Sarala',sans-serif;
+    color: #FFF2E7;
+    font-weight: 400px;
+    font-size: 18px;
+
+}
+
+.container{
+    border-top: 0.4px solid #FFF2E7;
+}
+.container-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.container-principal-titulo{
+    font-family: 'Righteous',cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    color: #FFF2E7;
+
+}
+
+.container-principal-subtitulo{
+    font-family: 'Sarala',sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+.container-principal-botao{
+    background: #ECD6C4;
+    border: none;
+    width: 180px;
+    height: 64px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgb(0, 0,0,0.25);
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: 'Sarala',sans-serif;
+    color: #2F2325;
+    cursor:pointer;
+}
+
+.container-principal-botao:hover{
+    background-color: rgba(162, 168, 175, 0.25);
+    color: white;
+}
+.imagem2{
+    width: 400px;
+}
+
+.container-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin-top: 45px ;
+}
+
+.container-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 45px;
+    font-family: 'righteus' cursive;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+    
+}
+
+.paragrafo{
+    font-family: 'Sarala',sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+    color: #ECD6C4;
+    padding: 20px;
+}
+
+.rodape{
+   padding: 32px;
+   border-top: 0.4px solid #FFF2E7;
+}
+.rodape-imagem{
+    height:48px;
+    display: block;
+    margin: 0 auto; /*Aqui mete qualquer elemento no centro*/
+}
